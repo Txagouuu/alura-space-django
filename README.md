@@ -31,7 +31,7 @@ Siga os passos abaixo para configurar e executar o projeto em sua máquina.
 
 1.  **Clone o repositório:**
     ```bash
-    git clone [https://github.com/seu-usuario/alura-space-django.git](https://github.com/seu-usuario/alura-space-django.git)
+    git clone https://github.com/Txagouuu/alura-space-django.git
     cd alura-space-django
     ```
 
