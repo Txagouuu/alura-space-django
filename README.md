@@ -60,7 +60,7 @@ Siga os passos abaixo para configurar e executar o projeto em sua máquina.
     DEBUG=True
     ```
     > **Dica:** Você pode gerar uma nova `SECRET_KEY` usando o próprio Django. Abra um terminal Python (`python`) e execute:
-    > `from django.core.management.utils import get_random_secret_key; print(get_random_secret_key())`
+    > `python -c 'from django.core.management.utils import get_random_secret_key; print(get_random_secret_key())'`
 
 5.  **Aplique as migrações do banco de dados:**
     Este comando irá criar o arquivo `db.sqlite3` e as tabelas necessárias.
