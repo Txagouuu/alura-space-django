@@ -55,7 +55,11 @@
                             {{field}}
 
                         </div>
-                        
+                        {% for error in field.errors%}
+                        <divc class="alert alert-danger" >
+                            {{error}}
+                        </div>
+                        {%endfor%}
                         {%endfor%}
                         <div class="col-12 col-lg-12" style="margin-bottom: 10px;">
                             <button class="btn btn-success col-12" style="padding: top 5px;" type="submit">Cadastrar</button>
