@@ -1,5 +1,5 @@
 from django.shortcuts import render, redirect
-from usuarios.forms import loginForm, CadastroForm
+from apps.usuarios.forms import loginForm, CadastroForm
 from django.contrib.auth.models import User
 from django.contrib import auth
 from django.contrib import messages
