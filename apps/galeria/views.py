@@ -31,7 +31,7 @@ def buscar(request):
     return render(request, "galeria/buscar.html", {"cards": fotografias, })
 
 def nova_imagem(request):
-    form = FotografiaForms
+    form = FotografiaForms()
     return render(request, 'galeria/nova_imagem.html',{'form': form})
 
 def editar_imagem(request):
